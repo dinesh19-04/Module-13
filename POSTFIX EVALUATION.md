@@ -32,12 +32,36 @@ To write a Python program to evaluate a user-given Postfix expression that conta
 ### PROGRAM
 
 ```
+# Stack implementation using list
+stack = []
+
+# Input: pushing three items onto the stack
+stack.append(input())
+stack.append(input())
+stack.append(input())
+
+# Display stack before popping
+print("Stack before elements are popped")
+print(stack)
+
+# Pop all three items
+stack.pop()
+stack.pop()
+stack.pop()
+
+# Display stack after popping
+print("\nStack after elements are popped:")
+print(stack)
+
 
 
 ```
 
 ### OUTPUT
+<img width="721" height="168" alt="image" src="https://github.com/user-attachments/assets/5a09749f-267e-4c06-832f-0c6ee2411d81" />
+
 
 
 ### RESULT
 
+Thus the python program for to evaluate a user-given Postfix expression that contains Multiplication and Addition operators using the stack concept has been implemented and executed successfully.
